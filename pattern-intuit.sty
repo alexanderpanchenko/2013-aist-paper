@@ -1,0 +1,213 @@
+\ProvidesPackage{pattern-intuit}
+
+ \RequirePackage{amsmath} 
+ \RequirePackage{amssymb}   
+
+ \RequirePackage[final]{graphicx}    
+  \graphicspath{{graphics/}}          
+  
+ \RequirePackage[utf8]{inputenc}   
+ \RequirePackage[russian]{babel}      
+ \RequirePackage{indentfirst}      
+ \RequirePackage{rumathbr}      
+ \RequirePackage[labelsep=period]{caption} 
+
+  \let\ge=\geqslant
+  \let\le=\leqslant
+  \let\nge=\ngeqslant
+  \let\nle=\nleqslant
+  \let\setminus=\smallsetminus
+  \renewcommand{\Im}{\mathop{\mathrm{Im}}\nolimits}
+  \renewcommand{\Re}{\mathop{\mathrm{Re}}\nolimits}
+  
+ %RequirePackage{pscyr}  
+ %\renewcommand{\rmdefault}{ftm}
+ 
+ \RequirePackage{amsthm}            
+  \theoremstyle{plain}
+   \newtheorem{theorem}{�������}[section]
+   \newtheorem{lemma}[theorem]{�����}
+
+  \theoremstyle{definition}
+   \newtheorem{define}{�����������}
+   \newtheorem{sample}{������}
+
+  \theoremstyle{remark}
+   \newtheorem*{note}{����������}
+
+ \RequirePackage{ifpdf}
+  \ifpdf
+ \RequirePackage[unicode,final]{hyperref}
+  \fi
+
+ \special{papersize=148mm,210mm}
+ \paperwidth148mm
+ \paperheight210mm
+ \textwidth110mm
+ \textheight175mm
+ \topmargin15mm
+ \addtolength{\topmargin}{-3.8cm} %% bug? should be -1in
+ \oddsidemargin26mm
+ \evensidemargin12mm
+ \hoffset=-1in
+
+ \renewcommand{\@evenhead}{\thepage \hfil \leftmark}
+ \renewcommand{\@oddhead} {\rightmark \hfil \thepage} 
+
+ \renewcommand{\@evenfoot}{} %%
+ \renewcommand{\@oddfoot} {} %%
+
+ %%equirePackage{fancy}      
+ %RequirePackage[pagestyles]{titlesec}
+ 
+ %\renewpagestyle{empty}{%
+ % \sethead[\strut][\strut][\strut]{\strut}{\strut}{\strut} %odd []; even {}
+ % \setfoot
+ % [\small\hskip-6pt\begin{tabular}{l}�������~�.\,�., ��������~�.\,�. (���.): ������ �����������, ����� � �������,\\ ������������, 16--18 �����, 2012 \\
+ %  \copyright ������������ �������� ����������� ������һ, 2012\end{tabular}]%
+ % [][]%
+ % {\small\hskip-6pt\begin{tabular}{l}�������~�.\,�., ��������~�.\,�. (���.): ������ �����������, ����� � �������,\\ ������������, 16--18 �����, 2012 \\
+ %  \copyright ������������ �������� ����������� ������һ, 2012\end{tabular}}%
+ % {}{}
+ %}
+  
+ \newcommand{\article}[2]{%
+   \setcounter{subsection}{0}
+   \setcounter{equation}{0}
+   \setcounter{theorem}{0}
+   \setcounter{define}{0}
+   \setcounter{sample}{0}
+   \setcounter{footnote}{0}
+   \setcounter{figure}{0}
+   \setcounter{table}{0}
+   %
+   \markboth{}{}
+   {
+   \thispagestyle{empty}
+   \strut
+   \vskip21mm
+   \begin{center}
+    \Large\bf #1
+   \end{center}  
+   \vskip10pt
+   \strut
+   }
+    %
+   \markboth{#2}{#2}%
+  }
+   
+ \newcommand{\annotation}[2]{%
+   \begin{center}
+   \begin{minipage}{0.8\textwidth}
+    \small
+    \noindent{\bf Аннотация.} #1
+    \vskip24pt
+    
+    \noindent{\bf Ключевые слова:} #2.
+   \end{minipage}
+   \end{center}
+   \vskip14pt
+  }
+  
+ \renewcommand{\author}[1]{{\small\center{\protect #1}\vskip18pt}}
+ %\renewcommand{\author}[1]{{\small\centerline{\protect #1}\vskip18pt}}
+ \newcommand{\organization}[1]{\begin{center}{\small #1}\end{center}\vskip14pt}
+  
+ \renewcommand{\subsection}{\@startsection{subsection}{2}{0pt}{-2.7ex plus -1ex minus -.2ex}{1ex plus.2ex}{\normalfont\large\bfseries}}  
+ \renewcommand{\paragraph}{\@startsection{paragraph}{4}{0pt}{1.25ex plus 1ex minus .2ex}{-1em}{\normalfont\bfseries}}  
+  
+ \renewcommand{\thesubsection}{\arabic{subsection}}
+
+ \RequirePackage{longtable}
+  
+  \newcommand{\tablitsa}[2]{%
+   \renewcommand{\tablename}{����.}
+   \begin{table}[ht]
+   \begin{center}
+    \begin{minipage}{0.8\textwidth}
+    \caption{#1}
+    \end{minipage}
+    #2
+    \vskip-25pt\strut
+   \end{center}
+   \end{table} 
+  }
+  
+ \newcommand{\risunok}[3]{%
+   \begin{figure}[ht]
+   \begin{center}
+    \includegraphics[width=#3]{#2}
+    \begin{minipage}{0.8\textwidth}
+    \caption{#1}
+    \label{fig-#2}
+    \vskip-40pt\strut
+    \end{minipage}
+   \end{center}
+   \end{figure}
+ }
+ 
+ \renewcommand{\@listI}{%
+   \leftmargin   = 2\parindent
+   \rightmargin  = 0pt
+   \labelsep     = 7pt
+   \labelwidth   =\parindent
+   \itemindent   = 0pt
+   \listparindent= 0pt
+   \topsep       = 0pt
+   \partopsep    = 2pt plus 1pt minus 1pt
+   \parsep       = 1pt plus 2pt
+   \itemsep=\parsep
+ }
+  
+ \renewenvironment{itemize}{
+    \begin{list}{\labelitemi}{
+    \setlength{\topsep}{0pt}
+    \setlength{\partopsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\itemsep}{00pt}
+    \setlength{\parsep}{0pt}
+    }
+ }{\end{list}} 
+ 
+ \renewcommand{\labelitemi}{---}
+ \renewcommand{\labelenumi} {\theenumi)}
+ \renewcommand{\labelenumii}{\theenumii)}
+ 
+ \renewcommand{\@biblabel}[1]{#1.}
+ \renewenvironment{thebibliography}[1]{%
+  \subsection*{Список источников}
+  \list{\@biblabel{\@arabic\c@enumiv}}%
+  {\settowidth\labelwidth{\@biblabel{#1}}%
+    \leftmargin\labelwidth
+    \advance\leftmargin\labelsep
+    \setlength{\itemsep}{0pt}
+    \@openbib@code
+    \usecounter{enumiv}%
+    \let\p@enumiv\@empty
+    \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+  \sloppy
+  \clubpenalty4000
+  \@clubpenalty \clubpenalty
+  \widowpenalty4000%
+  \sfcode`\.\@m}
+  {\def\@noitemerr
+  {\@latex@warning{Empty `thebibliography' environment}}%
+  \endlist
+ }
+  
+ \frenchspacing  
+      
+ \clubpenalty=10000
+ \widowpenalty=10000
+ 
+ \tolerance=1000
+ \emergencystretch=20\p@
+ \adjdemerits=100
+ \hyphenpenalty=300
+ \doublehyphendemerits=9000
+ \finalhyphendemerits=100
+ 
+%Don`t work! 
+ \righthyphenmin=3
+ \sloppy
+ %emergencystretch=25pt

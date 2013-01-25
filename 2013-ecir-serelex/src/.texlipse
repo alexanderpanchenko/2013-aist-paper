@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Mon Aug 13 17:14:20 CEST 2012
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=ecir.tex
+outputFile=ecir.pdf
+langSpell=en
+markDer=true
+srcDir=
