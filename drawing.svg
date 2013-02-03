@@ -14,7 +14,7 @@
    width="2104.7244"
    height="2979.9211"
    id="svg3864"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="drawing.svg"
    inkscape:export-filename="D:\tex\2013-aist-paper\arch2.png"
    inkscape:export-xdpi="90"
@@ -28,17 +28,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="988"
+     inkscape:window-width="1855"
+     inkscape:window-height="1176"
      id="namedview138"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.63357381"
-     inkscape:cx="1097.0457"
-     inkscape:cy="998.60721"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.44800434"
+     inkscape:cx="1200.705"
+     inkscape:cy="1068.9546"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3864">
     <sodipodi:guide
@@ -503,29 +503,32 @@
      y="1508.9008" />
   <g
      id="g3513"
-     transform="translate(-15.783481,-626.60418)">
+     transform="translate(-15.783481,-626.60418)"
+     style="stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none">
     <rect
        width="258.73645"
        height="107.04649"
        x="106.19231"
        y="2640.4143"
        id="rect2987-8-8-3-4-0-0-2-0-7-1"
-       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:3.91648459;stroke-miterlimit:6;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        sodipodi:linespacing="125%"
        id="text4162"
        y="2684.4675"
        x="118.17101"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        xml:space="preserve"><tspan
          y="2684.4675"
          x="118.17101"
          id="tspan4164"
-         sodipodi:role="line">Клиент для</tspan><tspan
+         sodipodi:role="line"
+         style="-inkscape-font-specification:Nimbus Roman No9 L;font-family:Nimbus Roman No9 L;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:43px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">Клиент для</tspan><tspan
          id="tspan4166"
          y="2734.4675"
          x="118.17101"
-         sodipodi:role="line">Windows 8</tspan></text>
+         sodipodi:role="line"
+         style="-inkscape-font-specification:Nimbus Roman No9 L;font-family:Nimbus Roman No9 L;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:43px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">Windows 8</tspan></text>
   </g>
   <text
      sodipodi:linespacing="125%"
@@ -891,37 +894,40 @@
      d="m 470.96404,1849.4302 113.94544,-0.4976" />
   <path
      inkscape:connector-curvature="0"
-     style="fill:none;stroke:#000000;stroke-width:7.2090621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
      id="path5625-8-9-5-0-1-4"
      d="m 370.25268,2048.9446 265.77481,-0.4976" />
   <g
      id="g3507"
-     transform="translate(-790.75238,-541.37339)">
+     transform="translate(-790.75238,-541.37339)"
+     style="stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none">
     <rect
        width="349.55978"
        height="107.04649"
        x="879.55054"
        y="2718.8105"
        id="rect2987-8-8-3-4-0-0-2-0-7-1-1"
-       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:4.55227327;stroke-miterlimit:6;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <text
        sodipodi:linespacing="125%"
        id="text4162-7"
        y="2762.8638"
        x="891.52924"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
        xml:space="preserve"><tspan
          y="2762.8638"
          x="891.52924"
          id="tspan4164-4"
-         sodipodi:role="line">Клиент для</tspan><tspan
+         sodipodi:role="line"
+         style="-inkscape-font-specification:Nimbus Roman No9 L;font-family:Nimbus Roman No9 L;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:43px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">Клиент для</tspan><tspan
          id="tspan4166-0"
          y="2812.8638"
          x="891.52924"
-         sodipodi:role="line">Windows Phone 8</tspan></text>
+         sodipodi:role="line"
+         style="-inkscape-font-specification:Nimbus Roman No9 L;font-family:Nimbus Roman No9 L;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:43px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">Windows Phone 8</tspan></text>
   </g>
   <rect
-     style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:6.94682503;stroke-miterlimit:6;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:5;stroke-miterlimit:6;stroke-opacity:1;stroke-dasharray:none"
      id="rect2987-8-8-3-4-0-0-2-0-7-1-9"
      y="1554.8135"
      x="86.736931"
@@ -929,34 +935,34 @@
      width="727.13025" />
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="188.68147"
+     style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="441.37677"
      y="1595.71"
      id="text4162-4"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
-       x="188.68147"
+       x="441.37677"
        y="1595.71"
        id="tspan4166-8"
-       style="font-weight:bold;-inkscape-font-specification:Sans Bold">Поиск по картинкам</tspan><tspan
+       style="font-size:43px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L Bold">Поиск по картинкам</tspan><tspan
        sodipodi:role="line"
-       x="188.68147"
-       y="1645.71"
-       style="font-weight:normal;-inkscape-font-specification:Sans"
+       x="441.37677"
+       y="1651.0139"
+       style="font-size:43px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Nimbus Roman No9 L;-inkscape-font-specification:Nimbus Roman No9 L Bold"
        id="tspan3499">jpg.to (Google Image Search)</tspan></text>
   <path
      inkscape:connector-curvature="0"
-     style="fill:none;stroke:#000000;stroke-width:8.54423046;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
      id="path5625-8-9-5-0-1-7"
      d="m 456.11675,2219.4964 176.23087,-92.46" />
   <path
      inkscape:connector-curvature="0"
-     style="fill:none;stroke:#000000;stroke-width:7.54195881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
      id="path5625-8-9-5-0-1-4-4"
      d="m 185.99627,1700.7895 0.4976,290.8871" />
   <path
      inkscape:connector-curvature="0"
-     style="fill:none;stroke:#000000;stroke-width:4.83796978;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInM);marker-end:url(#TriangleOutM)"
      id="path5625-8-9-5-0-5"
      d="m 746.55864,1767.4418 0,-80.6363" />
 </svg>
