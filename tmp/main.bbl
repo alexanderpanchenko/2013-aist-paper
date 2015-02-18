@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{panchenko2013serelex}
+Panchenko, A., Romanov, P., Morozova, O., Naets, H., Romanov, A., Philippovich,
+  A., Fairon, C.:
+\newblock Serelex: Search and visualization of semantically related words.
+\newblock In Proceedings of the 35th European Conference in Information
+  Retrieval (2013)
+
+\bibitem{panchenko2012konvens}
+Panchenko, A., Morozova, O., Naets, H.:
+\newblock A semantic similarity measure based on lexico-syntactic patterns.
+\newblock In: Proceedings of KONVENS 2012. (2012)  174--178
+
+\bibitem{hearst1992}
+Hearst, M.A.:
+\newblock Automatic acquisition of hyponyms from large text corpora.
+\newblock In: ACL. (1992)  539--545
+
+\bibitem{baroni2009wacky}
+Baroni, M., Bernardini, S., Ferraresi, A., Zanchetta, E.:
+\newblock The wacky wide web: A collection of very large linguistically
+  processed web-crawled corpora.
+\newblock LREC \textbf{43}(3) (2009)  209--226
+
+\bibitem{miller1993semantic}
+Miller, G.A., Leacock, C., Tengi, R., Bunker, R.T.:
+\newblock A semantic concordance.
+\newblock In: Proceedings of the workshop on Human Language Technology, ACL
+  (1993)  303--308
+
+\bibitem{rubenstein1965}
+Rubenstein, H., Goodenough, J.B.:
+\newblock Contextual correlates of synonymy.
+\newblock ACM \textbf{8}(10) (1965)  627--633
+
+\bibitem{finkelstein2001placing}
+Finkelstein, L., Gabrilovich, E., Matias, Y., Rivlin, E., Solan, Z., Wolfman,
+  G., Ruppin, E.:
+\newblock Placing search in context: The concept revisited.
+\newblock In: WWW 2001. (2001)  406--414
+
+\bibitem{wu1994verbs}
+Wu, Z., Palmer, M.:
+\newblock {Verbs semantics and lexical selection}.
+\newblock In: ACL'1994. (1994)  133--138
+
+\bibitem{leacock1998}
+Leacock, C., Chodorow, M.:
+\newblock {Combining Local Context and WordNet Similarity for Word Sense
+  Identification}.
+\newblock WordNet (1998)  265--283
+
+\bibitem{resnik1995}
+Resnik, P.:
+\newblock {Using Information Content to Evaluate Semantic Similarity in a
+  Taxonomy}.
+\newblock In: IJCAI. Volume~1. (1995)  448--453
+
+\bibitem{banerjee2003extended}
+Banerjee, S., Pedersen, T.:
+\newblock {Extended gloss overlaps as a measure of semantic relatedness}.
+\newblock In: IJCAI. Volume~18. (2003)  805--810
+
+\bibitem{patwardhan2006using}
+Patwardhan, S., Pedersen, T.:
+\newblock {Using WordNet-based context vectors to estimate the semantic
+  relatedness of concepts}.
+\newblock EACL 2006 (2006)  1--12
+
+\bibitem{zesch2008extracting}
+Zesch, T., M{\"u}ller, C., Gurevych, I.:
+\newblock Extracting lexical semantic knowledge from wikipedia and wiktionary.
+\newblock In: LREC'08. (2008)  1646--1652
+
+\bibitem{cruys2010mining}
+Van~de Cruys, T.:
+\newblock {Mining for Meaning: The Extraction of Lexico-Semantic Knowledge from
+  Text}.
+\newblock PhD thesis, University of Groningen (2010)
+
+\bibitem{landauer1998introduction}
+Landauer, T.K., Foltz, P.W., Laham, D.:
+\newblock An introduction to latent semantic analysis.
+\newblock Discourse processes \textbf{25}(2-3) (1998)  259--284
+
+\bibitem{baroniwe}
+Baroni, M., Lenci, A.:
+\newblock How we blessed distributional semantic evaluation.
+\newblock In: GEMS (EMNLP), 2011. (2011)  1--11
+
+\bibitem{panchenko2012study}
+Panchenko, A., Morozova, O.:
+\newblock A study of hybrid similarity measures for semantic relation
+  extraction.
+\newblock Innovative hybrid approaches to the processing of textual data
+  workshop of EACL 2012 (2012)  10--18
+
+\bibitem{panchenko2013phd}
+Panchenko, A.:
+\newblock {Similarity Measures for Semantic Relation Extraction}.
+\newblock PhD thesis, Universit\'{e} catholique de Louvain (2013)
+
+\end{thebibliography}

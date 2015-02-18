@@ -1,0 +1,59 @@
+\begin{thebibliography}{10}
+
+\bibitem{panchenko2012konvens}
+Panchenko, A., Morozova, O., Naets, H.:
+\newblock A semantic similarity measure based on lexico-syntactic patterns.
+\newblock In: Proceedings of KONVENS 2012. (2012)  174--178
+
+\bibitem{baroni2009wacky}
+Baroni, M., Bernardini, S., Ferraresi, A., Zanchetta, E.:
+\newblock The wacky wide web: A collection of very large linguistically
+  processed web-crawled corpora.
+\newblock LREC \textbf{43}(3) (2009)  209--226
+
+\bibitem{barnes1986hierarchical}
+Barnes, J., Hut, P.:
+\newblock A hierarchical 0 (n log iv) force-calculation algorithm.
+\newblock nature \textbf{324} (1986) ~4
+
+\bibitem{wu1994verbs}
+Wu, Z., Palmer, M.:
+\newblock {Verbs semantics and lexical selection}.
+\newblock In: ACL'1994. (1994)  133--138
+
+\bibitem{leacock1998}
+Leacock, C., Chodorow, M.:
+\newblock {Combining Local Context and WordNet Similarity for Word Sense
+  Identification}.
+\newblock WordNet (1998)  265--283
+
+\bibitem{resnik1995}
+Resnik, P.:
+\newblock {Using Information Content to Evaluate Semantic Similarity in a
+  Taxonomy}.
+\newblock In: IJCAI. Volume~1. (1995)  448--453
+
+\bibitem{banerjee2003extended}
+Banerjee, S., Pedersen, T.:
+\newblock {Extended gloss overlaps as a measure of semantic relatedness}.
+\newblock In: IJCAI. Volume~18. (2003)  805--810
+
+\bibitem{patwardhan2006using}
+Patwardhan, S., Pedersen, T.:
+\newblock {Using WordNet-based context vectors to estimate the semantic
+  relatedness of concepts}.
+\newblock Making Sense of Sense: Bringing Psycholinguistics and Computational
+  Linguistics Together (2006)  1--12
+
+\bibitem{zesch2008extracting}
+Zesch, T., M{\"u}ller, C., Gurevych, I.:
+\newblock Extracting lexical semantic knowledge from wikipedia and wiktionary.
+\newblock In: LREC'08. (2008)  1646--1652
+
+\bibitem{cruys2010mining}
+Van~de Cruys, T.:
+\newblock {Mining for Meaning: The Extraction of Lexico-Semantic Knowledge from
+  Text}.
+\newblock PhD thesis, University of Groningen (2010)
+
+\end{thebibliography}
